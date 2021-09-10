@@ -1,0 +1,11 @@
+Python progremming:
+
+age = input("What is your current age? \n")
+Total_mounts = 90 * 12
+Total_weeks = 52 * 90
+Total_days = 365 * 90
+age = int(age)
+mounts_left = Total_mounts - (age * 12)
+weeks_left = Total_weeks - (age * 52)
+days_left = Total_days - (age * 365)
+print(f"you have {days_left} days, {weeks_left} weeks, and {mounts_left} mounts left.\n(if you live until 90)")
